@@ -13,13 +13,14 @@ app.use(bodyParser.json());
 
 
 //DB Config
-const db = require('./config/keys').mongoURI;
+//const db = require('./config/keys').mongoURI;
+require('./config/keys');
 
 // Connect to Mongo
-mongoose
-  .connect(db,{ useNewUrlParser: true })
-  .then(() => console.log('MongoDB Connected...'))
-  .catch(err => console.log('Hitting an error on mongoose/mongodb connection: ', err));
+// mongoose
+//   .connect(db,{ useNewUrlParser: true })
+//   .then(() => console.log('MongoDB Connected...'))
+//   .catch(err => console.log('Hitting an error on mongoose/mongodb connection: ', err));
 
 // Use Routes
 app.use('/api/items', items);
