@@ -19,3 +19,14 @@
   opacity: 0.01;
   transition: opacity 1000ms ease-in;
 }
+
+/* body {
+  background-color: blueviolet;
+} */
+
+body {
+  background-image: url(./shoplist1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: relative;
+}
