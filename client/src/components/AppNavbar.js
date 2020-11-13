@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Container } from 'reactstrap';
+import RegisterModal from './auth/RegisterModal';
+import Logout from './auth/Logout';
 
 class AppNavbar extends Component {
   state = {
@@ -24,6 +26,12 @@ class AppNavbar extends Component {
               <NavItem>
                 <NavLink href="https://github.com/Cvan23" target="_blank">
                   My Github
+                </NavLink>
+                <NavLink>
+                  <RegisterModal />
+                </NavLink>
+                <NavLink>
+                  <Logout />
                 </NavLink>
               </NavItem>
             </Nav>
