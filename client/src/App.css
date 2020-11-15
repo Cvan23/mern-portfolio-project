@@ -20,13 +20,18 @@
   transition: opacity 1000ms ease-in;
 }
 
+h4 {
+  color: rgb(255, 1, 1);
+  font-weight: 700;
+}
+
 /* body {
   background-color: blueviolet;
 } */
 
-/* body {
-  background-image: url(./shoplist1.jpg);
+body {
+  background-image: url(./shop2.png);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-position: relative;
-} */
+}

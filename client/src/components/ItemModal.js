@@ -42,7 +42,7 @@ class ItemModal extends Component {
       <div>
         {this.props.isAuthenticated ? (
           <Button
-            color='dark'
+            color='success'
             style={{ marginBottom: '2rem' }}
             onClick={this.toggle}
           >
